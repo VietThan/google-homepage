@@ -3,15 +3,11 @@
 	padding: 0;
 }
 
-.center {
-	/*display: block;*/
-	margin: 0 auto;
-	width: 100%;
+.logo {
+	display: flex;
+	height: 60vh;
+	width: auto;
+	align-items: center;
+	justify-content: center;
 }
 
-.container{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-}
