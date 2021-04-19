@@ -3,13 +3,66 @@
 	padding: 0;
 	font-family: arial, sans-serif;
 	font-feature-settings: normal;
+	font-size: 14px;
 }
+
+nav {
+	display: flex;
+	height: 60px;
+	padding: 6px;
+	flex-shrink: 0;
+	align-items: center;
+}
+
+nav div {
+	display: flex;
+}
+
+.general-link {
+	text-decoration: none;
+	color: rgb(34, 34, 34);
+	padding: 5px;
+	margin: 0px 5px 0px 5px;
+}
+
+.rhs{
+	flex-grow: 1;
+	justify-content: flex-end;
+}
+
+.services {
+	font-size: 13;
+	color: rgba(0, 0, 0, 0.87)
+}
+
 
 .logo {
 	display: flex;
+	width: auto;
+	align-items: center;
+	justify-content: center;
+	max-height: 290px;
+	height: calc(100%-560px);
+	margin-top: 113px;
+}
+
+.front {
 	height: 20vh;
+}
+
+.front div {
+	display: flex;
 	width: auto;
 	align-items: center;
 	justify-content: center;
 }
 
+
+.searchbar {
+	border-color: red;
+	height: 5vh;
+}
+
+footer {
+	display: flex;
+}
