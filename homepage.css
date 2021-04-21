@@ -35,6 +35,33 @@ nav div {
 	color: rgba(0, 0, 0, 0.87)
 }
 
+.nav-button a {
+	padding: 8px;
+}
+
+.nav-button a svg {
+	color: #5f6368;
+	fill: currentColor;
+}
+
+.circle {
+	height: 40px;
+	width: 40px;
+	background-position: -64px -29px;
+	position: relative;
+}
+
+.circle, .circle:hover {
+	color: #000;
+	cursor: pointer;
+	opacity: 1;
+}
+
+.circle:hover {
+	background-color: rgba(60,64,67,0.08);
+	outline: none;
+	border-radius: 50%;
+}
 
 .logo {
 	display: flex;
