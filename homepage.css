@@ -16,6 +16,7 @@ nav {
 
 nav div {
 	display: flex;
+	align-items: center;
 }
 
 .general-link {
@@ -33,6 +34,13 @@ nav div {
 .services {
 	font-size: 13;
 	color: rgba(0, 0, 0, 0.87)
+}
+
+.services-link {
+	text-decoration: none;
+	color: rgb(34, 34, 34);
+	padding: 5px;
+	margin: 0px 5px 0px 5px;
 }
 
 .nav-button a {
