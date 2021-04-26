@@ -4,6 +4,7 @@
 	font-family: arial, sans-serif;
 	font-feature-settings: normal;
 	font-size: 14px;
+	white-space: nowrap;
 }
 
 nav {
@@ -43,8 +44,15 @@ nav div {
 	margin: 0px 5px 0px 5px;
 }
 
+.rhs-non-services {
+	position: relative;
+	float: right;
+}
+
 .nav-button a {
 	padding: 8px;
+	border-radius: 2px;
+	box-sizing: border-box;
 }
 
 .nav-button a svg {
@@ -69,6 +77,31 @@ nav div {
 	background-color: rgba(60,64,67,0.08);
 	outline: none;
 	border-radius: 50%;
+}
+
+.g-account {
+	position: relative;
+	padding: 4px;
+}
+
+.g-account-link{
+	padding: 4px;
+	display: inline-block;
+	outline: none;
+	vertical-align: middle;
+	border-radius: 2px;
+	box-sizing: border-box;
+	height: 40px;
+	width: 40px;
+}
+
+.google-v {
+	background-size: 32px 32px;
+	border-radius: 50%;
+	display: block;
+	margin: 0;
+	position: relative;
+	z-index: 0;
 }
 
 .logo {
